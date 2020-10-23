@@ -1,0 +1,21 @@
+- id: cpplint
+  name: cpplint
+  description: Run `cpplint` on C/C++ files
+  language: python
+  types: [h, hpp, hxx, c, cc, cpp, cxx]
+  entry: cpplint
+
+- id: cmake-format
+  name: cmake-format
+  description: Run cmake-format on cmake files
+  args: [--in-place]
+  language: python
+  types: [cmake]
+  entry: cmake-format
+
+- id: cmake-lint
+  name: cmake-lint
+  description: Run cmake-lint on cmake files
+  language: python
+  types: [cmake]
+  entry: cmake-lint
