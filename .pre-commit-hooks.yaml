@@ -10,14 +10,13 @@
   name: cpplint
   description: Run `cpplint` on C++ files
   language: python
-  args: [--output=vs7]
   types: [c++]
   entry: cpplint
 
 - id: cmake-format
   name: cmake-format
   description: Run cmake-format on cmake files
-  args: [--in-place, --line-ending auto]
+  args: [--in-place --line-ending auto]
   language: python
   types: [cmake]
   entry: cmake-format
