@@ -16,7 +16,7 @@
 - id: cmake-format
   name: cmake-format
   description: Run cmake-format on cmake files
-  args: [--in-place, --line-ending=auto]
+  args: [--in-place]
   language: python
   types: [cmake]
   entry: cmake-format
