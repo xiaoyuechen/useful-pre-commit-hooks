@@ -1,8 +1,8 @@
 - id: cpplint
   name: cpplint
-  description: Run `cpplint` on C/C++ files
+  description: Run `cpplint` on C++ files
   language: python
-  types: [h, hpp, hxx, c, cc, cpp, cxx]
+  types: [c++]
   entry: cpplint
 
 - id: cmake-format
