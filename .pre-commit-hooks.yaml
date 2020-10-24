@@ -10,6 +10,7 @@
   name: cpplint
   description: Run `cpplint` on C++ files
   language: python
+  args: [--output=vs7]
   types: [c++]
   entry: cpplint
 
