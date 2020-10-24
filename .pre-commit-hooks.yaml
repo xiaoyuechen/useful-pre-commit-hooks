@@ -1,3 +1,11 @@
+- id: clang-format
+  name: clang-format
+  description: Run `clang-format` on C++ files
+  args: ["-style=Google"]
+  language: system
+  types: [c++]
+  entry: clang-format -i
+
 - id: cpplint
   name: cpplint
   description: Run `cpplint` on C++ files
