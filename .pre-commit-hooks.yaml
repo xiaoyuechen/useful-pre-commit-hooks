@@ -1,7 +1,7 @@
 - id: clang-format
   name: clang-format
   description: Run `clang-format` on C++ files
-  args: ["-style=Google"]
+  args: [-style=Google]
   language: system
   types: [c++]
   entry: clang-format -i
@@ -16,7 +16,7 @@
 - id: cmake-format
   name: cmake-format
   description: Run cmake-format on cmake files
-  args: [--in-place]
+  args: [--in-place, --line-ending auto]
   language: python
   types: [cmake]
   entry: cmake-format
