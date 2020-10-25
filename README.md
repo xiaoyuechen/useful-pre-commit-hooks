@@ -18,7 +18,7 @@ For example:
 ```yaml
 repos:
   - repo: https://github.com/xiaoyuechen/useful-pre-commit-hooks.git
-    rev: v0.7.5
+    rev: v0.8
     hooks: 
     - id: cmake-format
       args: [--in-place, --line-ending=auto]
